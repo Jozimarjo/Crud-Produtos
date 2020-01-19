@@ -22,7 +22,7 @@ Foi disponibilizado um arquivo docker-compose.yml contendo os conteiners necess�
 
 docker-compose up
 
-O front-end será executado na porta 4200 (http://localhost:3000) e o back-end será executado na porta 8080 (http://localhost:8080).
+O front-end será executado na porta 3000 (http://localhost:3000) e o back-end será executado na porta 8080 (http://localhost:8080).
 
 ### Execução Local
 Front-end
