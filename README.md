@@ -4,17 +4,17 @@
 ### Back-end
 API REST para CRUD de projetos, feito em Java. Foram usadas as seguintes tecnologias:
 
-Maven
-Spring Boot
-Spring Data REST
-H2 (Banco em Memória)
-Hibernate
+* Maven
+* Spring Boot
+* Spring Data REST
+* H2 (Banco em Memória)
+* Hibernate
 
 ### Front-end
 Aplicação cliente para consumir o CRUD de produtos. Foram usadas as seguintes tecnologias:
 
-ReactJs
-Bootstrap 4
+* ReactJs
+* Bootstrap 4
 ## Configuração e Execução
 
 ### Docker
