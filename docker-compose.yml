@@ -1,19 +1,13 @@
 version: '3'
 services:
   backend:
-    image: 'maven:3-jdk-8-alpine'
-    volumes:
-     - ./produto-back:/app/
-    command: mvn spring-boot:run
-    working_dir: /app
+    image: jozimar/crud_produtos_back:1.0.0
     ports:
-     - 8080:8080
+      - 8080:8080
+    restart: unless-stopped
 
   frontend:
-    image: 'node:lts-alpine'
-    volumes:
-     - ./projetos-react/front-end/produto-app:/app/
-    command: sh -c "npm i && npm start"
-    working_dir: /app
+    image: jozimar/crud_produtos:1.0.0
     ports:
-     - 3000:3000
+      - 3000:80
+    restart: unless-stopped
